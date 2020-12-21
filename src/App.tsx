@@ -43,6 +43,14 @@ const userA: USER = {
   password: "yyy"
 }
 
+//union types
+let value: boolean | number;
+value = true;
+value = 10;
+
+let arrayUni: (number | string)[];
+arrayUni = [0,1,2,"hello"];
+
 function App() {
   return (
     <div className="App">
