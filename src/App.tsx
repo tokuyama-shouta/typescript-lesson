@@ -57,6 +57,15 @@ company = "Amazon"
 let memory: 256 | 512;
 memory = 256;
 
+//typeof 
+let msg: string = "Hi";
+let msg2: typeof msg;
+msg2 = "hello"
+
+let animal = { cat: "small cat" };
+let newAmimal: typeof animal = {cat: "big cat"};
+
+
 function App() {
   return (
     <div className="App">
