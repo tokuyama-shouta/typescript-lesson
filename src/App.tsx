@@ -10,6 +10,11 @@ let single: string = 'hello';
 let doudle: string = "hello";
 let back: string = `hello`;
 
+const person = {
+  name: 'jack',
+  age: 21
+}
+console.log(person)
 
 const App: React.FC = () => {
   return (
