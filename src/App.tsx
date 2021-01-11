@@ -18,6 +18,9 @@ console.log(person)
 
 const fruits: string[] = ['Apple', 'Banana', 'Grape']
 
+const book: [string, number, boolean] = ['business', 1500, false];
+
+
 
 
 const App: React.FC = () => {
