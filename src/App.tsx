@@ -16,6 +16,10 @@ const person = {
 }
 console.log(person)
 
+const fruits: string[] = ['Apple', 'Banana', 'Grape']
+
+
+
 const App: React.FC = () => {
   return (
     <div className="App">
