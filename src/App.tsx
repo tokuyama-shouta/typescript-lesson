@@ -20,6 +20,21 @@ const fruits: string[] = ['Apple', 'Banana', 'Grape']
 
 const book: [string, number, boolean] = ['business', 1500, false];
 
+enum CoffeSize  {
+  SHORT = 'SHORT',
+  TALL = 'TALL',
+  GRANDE = 'GRANDE',
+  VENTI = 'VENTI'
+}
+
+const coffee = {
+  hot: true,
+  size: CoffeSize.TALL
+}
+coffee.size = CoffeSize.SHORT;
+
+
+
 
 
 
