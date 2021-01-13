@@ -37,6 +37,9 @@ coffee.size = CoffeSize.SHORT;
 let unionType: number | string = 10;
 let unionTypes: (number | string)[] = [21, 'hello']
 
+const apple: 'apple' = 'apple';
+let clothSize: 'small' | 'medium' | 'large' = 'small';
+
 
 
 
