@@ -39,8 +39,14 @@ let unionTypes: (number | string)[] = [21, 'hello']
 
 const apple: 'apple' = 'apple';
 let clothSize: 'small' | 'medium' | 'large' = 'small';
+type ClothSize = 'small' | 'medium' | 'large'
+const ClothSize: 'apple' = 'apple';
 
 
+function add(num1: number, num2: number): number {
+  return num1 + num2
+}
+add(3,2)
 
 
 const App: React.FC = () => {
