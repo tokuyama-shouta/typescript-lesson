@@ -55,7 +55,15 @@ function sayHello(): void {
 console.log(sayHello)
 
 const anotherAdd: (n1: number, n2: number) => number = add;
-const doubleNumber = (number: number): number => number * 2
+const doubleNumber = (number: number): number => number * 2;
+
+function doubleAndHandle(num: number, cb: (num: number) => number) {
+  const doubleNum = cb(num * 2)
+  console.log(num * 2);
+}
+doubleAndHandle(21, doubleNum => {
+  return doubleNum
+});
 
 
 const App: React.FC = () => {
