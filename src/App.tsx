@@ -75,6 +75,10 @@ if(typeof unknownInput === 'string'){
   unknownInput;
 }
 
+function error(message: string): never{
+  throw new Error(message);
+}
+console.log(error('this is an error'))
 
 
 const App: React.FC = () => {
