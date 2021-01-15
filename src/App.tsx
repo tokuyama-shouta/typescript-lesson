@@ -65,6 +65,17 @@ doubleAndHandle(21, doubleNum => {
   return doubleNum
 });
 
+let unknownInput: unknown;
+let anyInput: any;
+let text: string
+unknownInput = 'hello';
+unknownInput = 21;
+unknownInput = true;
+if(typeof unknownInput === 'string'){
+  unknownInput;
+}
+
+
 
 const App: React.FC = () => {
   return (
