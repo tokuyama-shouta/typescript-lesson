@@ -54,6 +54,9 @@ function sayHello(): void {
 
 console.log(sayHello)
 
+const anotherAdd: (n1: number, n2: number) => number = add;
+const doubleNumber = (number: number): number => number * 2
+
 
 const App: React.FC = () => {
   return (
